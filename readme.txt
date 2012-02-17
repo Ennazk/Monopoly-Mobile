@@ -1,7 +1,7 @@
 ##############################################################
 #                                                            #
-#					Projet Génie Logiciel					 #
-#		Monopoly - The Original Edition - iPad version       #
+#                   Projet Génie Logiciel                    #
+#      Monopoly - The Original Edition - iPad version        #
 #                                                            #
 ##############################################################
 
