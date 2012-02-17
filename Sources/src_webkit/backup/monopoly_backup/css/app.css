@@ -1,0 +1,50 @@
+body{
+	background:url(../images/menuBGFlipped.png);
+}
+
+.accueil{
+	background:url('../images/accueil.jpg') no-repeat;
+}
+.menuPrincipalBack{
+	background:url('../images/menuBGFlipped.png');
+}
+.menuButton{
+	width:200px;
+	border-radius:10px;
+	color:#f5f1c5;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(108,24,23,1)), color-stop(100%,rgba(180,31,29,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(108,24,23,1) 0%,rgba(180,31,29,1) 100%);
+	font-size:30px;
+	border:none;
+	box-shadow:1px 1px 2px #333;
+	text-shadow:1px 1px 1px #333;
+	margin:30px
+	font-weight:bold;
+	font-family:helvetica;
+	text-align:center;
+}
+
+.menuButton:active{
+	background:rgba(180,31,29,1);
+}
+
+.newGame{
+	background:#FFF;
+	color:#333;
+	box-shadow:0px 0px 40px rgba(0,0,0,.9);
+}
+
+.plateau
+{
+	position: absolute; left: 0; color:#FFF; width:768px; background:url('../images/plateau.jpg');
+}                                                                         
+                                                                          
+.menuPartie                                                               
+{                                                                         
+	position: absolute; right: 0; color:#FFF; width:256px; background: #333;
+}
+
+.userPanel
+{
+	padding: 10px;
+}

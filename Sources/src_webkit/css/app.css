@@ -1,0 +1,124 @@
+@font-face
+{
+font-family: marker;
+src: url('../fonts/marker.ttf');
+}
+@font-face
+{
+font-family: marker2;
+src: url('../fonts/123Marker.ttf');
+}
+
+
+body{
+	background:#000;
+	/*background:url(../images/menuBGFlipped.png);*/
+}
+
+.accueil{
+	background:url('../images/accueil.jpg') no-repeat;
+}
+.menuPrincipalBack{
+	/*background:url('../images/menuBGFlipped.png');*/
+}
+.menuButton{
+	width:200px;
+	border-radius:10px;
+	color:#f5f1c5;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(108,24,23,1)), color-stop(100%,rgba(180,31,29,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(108,24,23,1) 0%,rgba(180,31,29,1) 100%);
+	font-size:30px;
+	border:none;
+	box-shadow:1px 1px 2px #333;
+	text-shadow:1px 1px 1px #333;
+	margin:30px
+	font-weight:bold;
+	font-family:helvetica;
+	text-align:center;
+}
+
+.menuButton:active{
+	background:rgba(180,31,29,1);
+}
+
+.newGame{
+	background:#FFF;
+	color:#333;
+	box-shadow:0px 0px 40px rgba(0,0,0,.9);
+}
+
+.plateau
+{
+	position: absolute; left: 0; width:768px; background:url('../images/plateau.png') no-repeat 0px 0px;
+}                                                                         
+                                                                          
+.menuPartie                                                               
+{                         
+	font-family: marker;                
+	position: absolute; right: 0; width:256px;
+}
+
+.userPanel
+{
+	padding: 10px;
+	font-size: 26px;
+	color: #333;
+	font-weight:bold;
+}
+.money{
+	font-weight:bold;
+	color:#C00;
+	text-align:right;
+}
+.partie
+{
+	background:url('../images/partieBG.jpg');
+}
+
+.optionsPanel
+{
+	padding : 10px;
+}
+
+.stuffHolder
+{
+	border:1px solid #999;
+	margin: 10px 0;
+	padding : 10px;
+	font-size:14px;
+	font-weight:normal;
+	background:url('../images/stuffSquares.png') no-repeat 5px 5px rgba(0,0,0,.1);
+	height:200px;
+}
+
+.lancerDes
+{
+	background:url('../images/dice.gif') no-repeat 70px 10px  rgba(0,0,0,.1);
+	height:140px;
+	font-family:marker2;
+	padding-top:100px;
+}
+
+.lancerDes:active
+{
+	background:url('../images/dice.gif') no-repeat 70px 10px  rgba(0,0,0,.3);
+}
+
+.dice
+{
+	z-index:999;
+	position:absolute;
+	top: 800px;
+	left: 100px;
+	/*bottom:-100px;*/
+	/*left:300px;*/
+	width:50px;
+	height:50px;
+}
+
+.pion
+{
+	width: 50px;
+	background:url('../images/pion.png');
+	position:absolute;
+}
